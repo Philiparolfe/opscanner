@@ -1,10 +1,10 @@
-#Open Port Scanner
+# Open Port Scanner
 This script is a simple Open Port Scanner written in Python. It allows you to scan a range of ports on a target IP address or hostname and determine if they are open or closed.
 
-#Prerequisites
+# Prerequisites
 Python 3.x
 socket module (should be available in the standard library)
-#Usage
+# Usage
 Clone or download the script to your local machine.
 Open a terminal or command prompt and navigate to the directory containing the script.
 Run the script using the command python open_port_scanner.py.
@@ -13,7 +13,7 @@ Specify the range of ports you want to scan by providing the starting and ending
 The script will iterate over the specified port range and display the open ports, if any.
 Please note that this script requires proper authorization and should be used for legal and ethical purposes only.
 
-#Example
+# Example
 python
 Copy code
 $ python open_port_scanner.py
@@ -26,7 +26,7 @@ End: 100
 Port 22 is open
 Port 80 is open
 Port 443 is open
-#Notes
+# Notes
 The script utilizes the socket module to create a socket object and attempt connections to the specified ports.
 A timeout of 1 second is set for each connection attempt.
 If a connection is successful (result code 0), the script will print that the port is open.
