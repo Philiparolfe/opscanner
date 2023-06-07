@@ -14,8 +14,7 @@ The script will iterate over the specified port range and display the open ports
 Please note that this script requires proper authorization and should be used for legal and ethical purposes only.
 
 # Example
-python
-Copy code
+```
 $ python open_port_scanner.py
 Open Port Scanner version 1.0
 IP address or hostname: example.com
@@ -26,6 +25,7 @@ End: 100
 Port 22 is open
 Port 80 is open
 Port 443 is open
+``` python
 # Notes
 The script utilizes the socket module to create a socket object and attempt connections to the specified ports.
 A timeout of 1 second is set for each connection attempt.
